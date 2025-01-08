@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initail-scale=1.0">
+    <title>NextWave Web Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="contact">
+    <header class="header">
+        <a href="index.html" class="logo">NextWave</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+        <nav class="navbar">
+            <a href="index.html" style="--i:0">Home</a>
+            <a href="about.html" style="--i:1">About Us</a>
+            <a href="services.html" style="--i:2">Services</a>
+            <a href="#" style="--i:3">Contact</a>
+        </nav>
+    </header>
+    <div class="contactcontainer">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contactleft">
+            <div class="contactlefttitle">
+                <h2>CONTACT US</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="5e0c6229-83ab-4be2-8bf4-8c0c16f10fb0">
+            <input typt="text" name="name" placeholder="Full name" class="contactinput" required>
+            <input typt="phone" name="phone" placeholder="Your contact number" class="contactinput" required>
+            <input typt="email" name="email" placeholder="Your email" class="contactinput" required>
+            <textarea name="message" placeholder="Your message" class="contactinput" required></textarea>
+            <button type="submit" class="glowbar"> Get in touch</button>
+        </form>
+        <div class="contactright">
+            <img src="contactus.svg" alt="contact us">
+        </div>
+    </div>
+</body>
+</html>
