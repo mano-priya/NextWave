@@ -216,13 +216,15 @@ body {
     float: left;
     flex-wrap: wrap;
     padding: 20px;
-    padding-right: 100px;
     height: 280px;
+    margin-bottom: 50px;
 }
 .boxes2{
     float: right;
+    flex-wrap: wrap;
     padding: 20px;
     height: 280px;
+    margin-bottom: 50px;
 }
 @media (max-width:768px){
     .image1,.image2,.image3,.image4,.pic{
