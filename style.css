@@ -230,6 +230,20 @@ body {
     .image1,.image2,.image3,.image4,.pic{
         display: none;
     }
+    .boxes1{
+    float: left;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 280px;
+    margin-bottom: 100px;
+    }
+    .boxes2{
+    float: right;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 280px;
+    margin-bottom: 50px;
+    }
 }
 .contactcontainer{
     height: 100vh;
